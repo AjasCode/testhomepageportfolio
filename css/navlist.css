@@ -1,0 +1,61 @@
+nav  ul a{ 
+	color: #ffffff;
+	width: 100%;
+	text-align: center;}
+
+nav li ul {
+    position: inherit;
+    display: none;
+    width: 100%;
+	text-align: center;
+}
+
+
+
+nav li {
+    width: 15%;
+    font-size: 75%;
+    display: inline-block;
+    text-align: center;
+
+  }
+  
+
+
+
+nav li:hover ul {
+	position: relative;
+   display: inline-block;
+   color: #d17baa;
+	background-color: #ffffff;
+	text-align: center;
+	font-family: helvetica;
+	width: 100%;
+
+}
+
+nav li:hover ul a{
+	display:inline-block;
+	color: #ffffff;
+	background-color: #D17BAA;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+nav li li{
+	    margin: 0 auto;
+	    text-align: center;
+}
+
+nav li li {
+  text-align: center;
+
+}
+nav li ul li {
+   display: block;
+   text-align: center;
+   
+ }

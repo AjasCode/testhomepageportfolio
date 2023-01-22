@@ -1,0 +1,48 @@
+/* PAGE ELEMENTS*/
+/* HEADER & HEADINGS*/
+body{
+	background-color: #ADE5F0;
+}
+
+header{
+	background-color: #ADE5F0;
+}
+
+h1{
+	color: #004E5D;
+	font-variant: capitalize;
+	font-family:  "helvetica";
+	background-color: #32B577;
+	text-align: center;
+}
+
+h2{
+	font-style: italic;
+	font-family: "georgia";
+	font-variant: capitalize;
+
+}
+
+section{
+	color: #0A2C29;
+	background-color: #DCFFFC;
+}
+
+/*LINKS & IMGS*/
+
+a{
+	color: #ffffff;
+	background-color: #004054;
+	text-align: center;
+
+}
+a:hover{
+	color: #004257;
+	background-color: #84ABB7;
+	text-align: center;
+
+}
+
+img{
+	display: none;
+}

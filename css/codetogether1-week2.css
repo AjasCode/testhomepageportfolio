@@ -1,0 +1,176 @@
+/* CODE TOGETHER STYLESHEET*/
+body{
+	background:#B3B3B3;
+	font-size: 125%;
+  margin: 4%;
+}
+
+header{
+	background: #666666;
+	text-align: center;
+  padding: 15px;
+}
+
+section{
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+}
+
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+}
+nav a{
+	font-style: italic;
+	font-size: 50%;
+}
+
+.current{
+	color: #000000;
+	background-color: #666666;
+	text-transform: uppercase;
+}
+
+footer{
+	background: #666666;
+	clear: both;
+	text-align: center;
+	padding: 1px;
+}
+
+/*HEADINGS AND PARAGRAPHS*/
+h1{
+	color: #ffffff;
+}
+
+h2{
+	color: #666666;
+	background: #00b7ea;
+}
+
+h3{}
+
+h4{}
+
+h5{}
+
+section{
+  width: 30%;
+  display: inline-block;
+}
+
+summary{
+	font-style:normal;
+}
+
+details{
+	font-style: italic;
+}
+
+p{
+	font-size: 50%;
+	font-weight: light;
+	color: #ffffff;
+	font-family: helvetica;
+}
+
+p.main{
+	font-size: 75%;
+	color: #000000;
+	font-family: helvetica;
+	font-variant: small-caps;
+	display:block;
+}
+
+p.progress{
+	font-size: 110%;
+	font-variant: small-caps;
+}
+
+/*IMAGES*/ 
+img{
+	width: 75px;
+}
+#mainlogo{
+	border: 2px solid #ffffff;
+	margin: 0px auto;
+}
+.thumb{
+	border: 2px dotted #ffffff;
+}
+
+/* LINKS AND BUTTONS*/
+a{
+	font-weight: bold;
+	color: #000000;
+	background-color: #D0FDFF;
+	width: 200px;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	}
+
+a:link{
+	font-weight: bold;
+	color: #ffffff;
+	background-color: transparent;
+	text-decoration: none;
+	text-align: center;
+}
+a:hover{
+	color: #ffffff;
+	background-color: #000000;
+}
+a:visited{
+	color: #000000;
+	background-color: transparent;
+}
+a:focus{
+	color: #ffffff;
+	background-color: #000000;
+}
+a:active{
+	border: 3px solid #92C6EE;
+}
+
+a[href$=".org"]{
+	background-color: #003847;
+	color: #ffffff;
+}
+
+a[href$=".gov"]{
+	background-color: #005F78;
+	color: #ffffff;
+}
+
+a[href$=".edu"]{
+	background-color: #7A9DC0;
+}
+
+nav a[href$=".com"]{
+	background-color: #545BC9;
+}
+
+
+	button{
+		display: inline-block;
+		color: #ffffff;
+		background-color: #004D89;
+		text-align: center;
+		width: 100px;
+		border-radius: 50%;
+	}
+
+	/*LISTS*/
+	ul{
+	list-style-type: square;
+	}
+
+	ol{
+		list-style-type: upper-roman;
+	}
+
+

@@ -1,0 +1,101 @@
+body {
+    background-color: #c1d5ff;
+}
+
+/*LINKS*/
+a:link{
+	color: 00364b;
+	font-family: georgia;
+	text-decoration: none;
+}
+a:visited{
+	color: navy;
+	font-family: georgia;
+	text-decoration: none;
+}
+a:hover{
+	color: darkred;
+	font-family: georgia;
+	text-decoration: none;
+}
+a:active{
+	color: darkslateblue;
+	font-family: georgia;
+	text-decoration: none;
+}
+
+/* HEADERS*/
+h1{
+	color: navy;
+	font-family: arial;
+	text-align: center;
+	line-height: 90%;
+}
+
+h2{
+	color: navy;
+	font-family: helvetica;
+	text-align: center;
+	line-height: 90%;
+}
+
+h3{
+	color: #0d4257;
+	font-family: helvetica;
+	text-align: center;
+	line-height: 90%;
+}
+
+h4{
+	color: #0d4257;
+	font-family: helvetica;
+	text-align: center;
+	line-height: 90%;
+	font-style: italic;
+}
+
+h5{
+	color: #navy;
+	font-family: helvetica;
+	text-align: center;
+	line-height: 90%;
+
+}
+
+h6{
+	color: #00364b;
+	font-family: helvetica;
+	text-align: center;
+	line-height: 50%;
+	font-style: italic;
+	font-variant: small-caps;
+}
+
+/*PARAGRAPHS*/
+p{
+	color: #171527;
+	font-family: helvetica;
+	font-size: 70%;
+	text-align: center;
+}
+
+#one{
+	color: navy;
+	font-family: cursive;
+	font-size: 40%;
+	text-align: center;
+}
+
+#two{
+	color: 00364b;
+	font-family: helvetica;
+	font-size: 90%;
+	text-align: center;
+}
+
+#three{
+	color: 00364b;
+	font-family: helvetica;
+	font-size: 30%;
+	text-align: center;
+}

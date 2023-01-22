@@ -1,0 +1,391 @@
+/*PAGE ELEMENTS*/
+body{
+	background-color: #a5bd8d;
+	background: -moz-linear-gradient(top, #a5bd8d 0%, #F9FFF3 100%);
+	background:-webkit-linear-gradient(top, #a5bd8d 0%, #F9FFF3 100%);
+	background:-o-linear-gradient(top, #a5bd8d 0%, #F9FFF3 100%);
+	background:linear-gradient(top, #a5bd8d 0%, #F9FFF3 100%);
+	margin: 2%;
+	text-align: center;
+}
+
+header{
+	background-color: #ffffff;
+	text-align: center;
+	font-size: 130%;
+	padding: .5%;
+	border: 1px dotted #005B21;
+	float:left;
+	width: 33%;
+	border-radius: 30px;
+	line-height: 50px;
+	position: fixed;
+}
+
+footer{
+	background: transparent;
+	text-align: center;
+	width: 100%;
+	padding:5%;
+	clear: both;
+}
+
+hr{
+	color: #142d00;
+	background-color: #142d00;
+	border: .5px solid #142d00;
+}
+
+img{
+	width:33%;
+	border-radius: 30px; 
+	border: 2px dotted #ffffff;
+}
+
+
+/*SECTIONS*/
+#sectwo{
+	background-color: #ffffff;
+	width: 33%;
+	height: 97px;
+	padding-top: 1px;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+#secheadings{
+	background-color: #ffffff;
+	width: 200px;
+	border-radius: 30px;
+	border: 1px dotted #142d00;
+	display: inline-block;
+}
+
+.thumb{
+	float: right;
+	display: inline-block;
+	width: 20%;
+	
+}
+
+}
+.left{
+	background-color: #ffffff;
+	display: inline-block;
+	width: 20%;
+	float:left;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+.right{
+	width: 75%;
+	display: inline-block;
+	float:right;
+}
+
+
+/*NAV BAR*/
+nav{
+	background-color: transparent;
+	text-align: center;
+	font-size: 50%;
+	border: 1px solid #ffffff;
+	border-radius: 30px;
+	font-family: "helvetica";
+
+}
+
+nav a{
+  text-decoration: none;
+  color: #005B21;
+}
+
+nav a:hover{
+	color: #ffffff;
+  background-color: #142d00;
+}
+
+.buttons{
+	background-color: #a5bd8d;
+	text-align: center;
+	font-size: 50%;
+	border: 1px solid #ffffff;
+	border-radius: 30px;
+	font-family: "helvetica";
+	padding: 3%;
+	text-decoration: none;
+}
+
+
+
+/*HEADINGS*/
+h1{
+	color: #142d00;
+	background-color: #ffffff;
+	font-family: helvetica;
+	horizontal-align: center;
+	border-radius: 30px;
+	padding: 1%;
+
+}
+h2{
+	color: #8ca758;
+	font-family: helvetica;
+
+}
+h3{
+	color: #8ca758;
+	font-family: helvetica;
+	line-height: 10%;
+}
+h4{
+	color: #8ca758;
+	font-family: helvetica;
+	line-height: 90%;
+}
+h5{
+	color: #f8ca758;
+	font-family: helvetica;
+	line-height: 10%;
+}
+h6{
+	color: #ffffff;
+	font-family: helvetica;
+	font-variant: small-caps;
+}
+
+#copyright{	
+	color: #2E5C00;
+	font-family: helvetica;
+	font-variant: uppercase;
+}
+
+/* PARAGRAPHS*/
+p{
+	color: #8ca758;
+	background-color: transparent;
+	font-family: helvetica;
+	font-size: 70%;
+}
+
+#uno{
+	color: #8ca758;
+	font-family: helvetica;
+	font-size: 60%;
+	font-variant: small-caps;
+	border-radius: 30px;
+}
+
+#one{
+	color: #863000;
+	font-family: helvetica;
+	font-size: 80%;
+	background-color: transparent;
+}
+
+#two{
+	color: #ffffff;
+	font-family: helvetica;
+	font-size: 80%;
+	background-color: transparent;
+	
+}
+
+#three{
+	color: #863000;
+	background-color: transparent;
+	font-family: helvetica;
+	font-size: 65%;
+	font-style: italic;
+}
+/*SPAN VARIANTS*/
+
+span{
+	color: #863000;
+	background-color: #FFD9C4;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	border-radius: 25% 10%;
+	text-align: center;
+	font-size: 150%;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+#styletwo{
+	color: #ffffff;
+	background-color: #5B1600;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	border: 2px solid #EC8868;
+	padding: 10px;
+	border-radius: 25% 10%;
+	text-align: center;
+	font-size: 150%;
+	font-family: helvetica;
+	font-weight: bold;
+
+}
+
+/*DIV VARIANTS*/
+
+
+div{
+	display: block;
+}
+
+#divstyleone{
+		background-color: #FFD9C4;
+		border: 2px solid #ffffff;
+		padding-block: 10px;
+}
+
+/*TRANSITIONS*/
+
+div
+{
+	display: inline-block;
+	color: #004054;
+	background-color: #ffffff;
+	line-height: 200px;
+	text-align: center;
+	width: 250px;
+	height: 200px;
+	border: 0px solid #00E4BE;
+	border-radius: 6px;
+	transition-property:color, width, background, border-radius, border;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+	float: right;
+	padding: 2px;
+	overflow-y: hidden;
+}
+
+div:hover{
+	color: #ffffff;
+	width:200px;
+	height: 300px;
+	background-color: #004257;
+	border: 2px solid #00E4BE;
+	border-radius: 30px;
+	float: right;
+}
+
+div:active{
+	color: #ffffff;
+	width:350px;
+	height: 300px;
+	background-color: #00A6E4;
+	border: 2px solid #00E4BE;
+	border-radius: 30px;
+	float: right;
+	transition-duration: .5s;
+}
+
+#divtransition{
+	font-size: 80%;
+	font-family: helvetica;
+	background-color: transparent;
+	line-height: 20px;
+}
+
+}
+/*LINKS*/
+a{
+	color: #ffffff;
+	font-family: "helvetica";
+	text-decoration: none;
+}
+a:visited{
+	color: #ffffff;
+	font-family: "helvetica";
+	text-decoration: none;
+}
+a:hover{
+	color: ffffff;
+	background-color: #142d00;
+	font-family: "helvetica";
+	text-decoration: none;
+}
+a:active{
+	color: #ffffff;
+	font-family: "helvetica";
+	text-decoration: none;
+}
+
+/*OTHER ASSETS*/
+ul{
+	color: #FFD9C4;
+	font-family: helvetica;
+	font-size: 70%;
+	width: 100px;
+	border: 1.5px dotted #FFE8DB;
+	padding-block: 5px;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+#utwo{
+	color: #ffffff;
+	font-family: helvetica;
+	font-size: 70%;
+	width: 50%;
+	text-align: left;
+	border: none;
+
+}
+
+label{
+	color: #FFD9C4;
+	font-family: helvetica;
+	font-size: 70%;
+}
+
+
+/*PROGRESS BAR*/
+
+progress {
+  border: 1px dotted #ffffff;
+  background: #FFDBC7;
+  border-radius: 30px;
+  text-align: left;
+}
+progress::-webkit-progress-bar {
+            background-color: #FFDBC7;
+            border-radius: 30px;
+            text-align: left;
+        }
+progress::-webkit-progress-value {
+           background-color: #EE4708;
+           border-radius: 30px;
+           text-align: left;
+        }
+
+progress::-moz-progress-bar {
+  background-color: #FFDBC7;
+  border-radius: 30px;
+  text-align: left;
+}
+
+
+/*ADDITIONAL ASSETS*/
+details{
+	color: #FFD9C4;
+	font-family: helvetica;
+	font-size: 80%;
+	font-style: italic;
+}
+
+summary{
+	color: #FFFFFF;
+	font-family: helvetica;
+	font-style: normal;
+}
+
